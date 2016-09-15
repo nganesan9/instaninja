@@ -1,0 +1,27 @@
+<script type="text/javascript">
+	/*globals RED */
+	RED.nodes.registerType('instagram-data',{
+		category:'socialmedia',
+		color: '#a6bbcf',
+        defaults: {
+            name: {value:"Enter name for the node"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"instagram-data";
+        }
+});
+</script>
+
+<script type="text/x-red" data-template-name="instagram-data">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="instagram-data">
+    <p>A simple node that gets data from instagram APIs</p>
+</script>

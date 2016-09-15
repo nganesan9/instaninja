@@ -1,0 +1,27 @@
+ <script type="text/javascript">
+    /*globals RED */
+    RED.nodes.registerType('get-instagram-data',{
+        category: 'subflows',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:"Enter name for the node"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"get-instagram-data";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="get-instagram-data">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name </label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="get-instagram-data">
+    <p>A simple node that gets data using the instagram API</p>
+</script>
