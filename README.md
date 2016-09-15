@@ -5,7 +5,7 @@ Instagram Analysis
 
 The Instagram Analysis application is one that analyzes images from an instagram account to classify it into different categories. It uses IBM Bluemix, NodeRED editor, API from Instagram and Watson’s Visual Recognition service. Using the API, it fetches the top 5 images from your account. It then passes it to the Watson service, to identify which category each image belongs to. It then stores these types into a variable name. These variables are fetched by the HTML page for viewing.
 
-### Instruction
+### Instructions
 
 a) Click the Deploy to Bluemix button as shown below.
 
