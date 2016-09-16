@@ -24,9 +24,14 @@ d) Note the API key which is a long aplhanumeric.
 
 a) Once the application is open in a new browser window, copy the Visual Recognition API Key from the previous step, and paste it in the purple nodes titled "Image 0", "Image 1", all the way to "Image 4". Double click on the node to open it, and place it against "API Key" field.
 
-b) Click the red colored "Deploy" button on the top right corner.
+b) Click the red colored "Deploy" button on the top right corner. 
 
-c) Open a new browser window, and paste this URL "app_name_from_step_A_under_instruction.mybluemix.net/see_type"
+c) Now click the little square on the Inject node titled "Get Insta. data", to the left of the arrow. 
+   Wait for a little message saying "Successfully Deployed".
+   
+   NOTE: If you see a little red error to the right, then the correct API Key has not been pasted. Watch for extra spaces while copying.
+
+d) Open a new browser window, and paste this URL "app_name_from_step_A_under_instruction.mybluemix.net/see_type"
 
 And voila! Images are to the left of the page, and the classification to its right. We’ve thus successfully created an application that takes data from Instagram and identifies it.
 
